@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션 효과</title>
+    <link type="text/css" rel="stylesheet" href="mycss.css">
+    <style>
+        div{width: 100px; height: 100px; background-color: red; position: relative; animation: 2s myanim;}
+        @keyframes myanim {0% {background-color: red; left: 0px; top: 0px;} 
+                          25% {background-color: red; left: 100px; top: 30px;}
+                          50% {background-color: yellow; left: 200px; top: 0px;}
+                          75% {background-color: blue; left: 100px; top: 30px;}
+                          100% {background-color: blue; left: 0px; top: 0px;}}
+    </style>
+</head>
+<body>
+    <header id="header"> <h1>My Blog Page</h1> </header>
+    <nav id="nav">
+        <h1>Links</h1>
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="1page.html">봄</a></li>
+            <li><a href="2page.html">여름</a></li>
+            <li><a href="3page.html">가을</a></li>
+            <li><a href="4page.html">겨울</a></li>
+            <li><a href="myani.html">박스 애니메이션</a></li>
+            <li><a href="r.html">토끼와 거북이 애니메이션</a></li>
+        </ul>
+    </nav>
+    <section id="main">
+    <article> 
+        <div></div>
+    </article>
+    </section>
+    <footer id="footer">CC BY-NC-SA 2.0 KR</footer>
+</body>
+</html>
